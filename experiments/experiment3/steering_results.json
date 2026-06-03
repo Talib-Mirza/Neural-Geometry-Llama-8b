@@ -1,0 +1,1517 @@
+[
+  {
+    "source_day": "Tuesday",
+    "target_day": "Friday",
+    "records": [
+      {
+        "prompt": "What day was it 1 days before Wednesday?",
+        "source_day": "Tuesday",
+        "target_day": "Friday",
+        "base_probs": {
+          "Monday": 0.07596428692340851,
+          "Tuesday": 0.07136183977127075,
+          "Wednesday": 0.43714427947998047,
+          "Thursday": 0.07596428692340851,
+          "Friday": 0.05220944061875343,
+          "Saturday": 0.08086356520652771,
+          "Sunday": 0.2064923346042633
+        },
+        "steered_probs": {
+          "Monday": 0.09287000447511673,
+          "Tuesday": 0.15311674773693085,
+          "Wednesday": 0.4162144660949707,
+          "Thursday": 0.04121081531047821,
+          "Friday": 0.020722098648548126,
+          "Saturday": 0.0387139767408371,
+          "Sunday": 0.2371518760919571
+        },
+        "control_probs": {
+          "Monday": 0.07914852350950241,
+          "Tuesday": 0.07435315102338791,
+          "Wednesday": 0.42787283658981323,
+          "Thursday": 0.07435315102338791,
+          "Friday": 0.057906292378902435,
+          "Saturday": 0.08425316214561462,
+          "Sunday": 0.2021128088235855
+        },
+        "steer_mag": 4.047131711087394
+      },
+      {
+        "prompt": "If today is Wednesday, what day was it 1 days ago?",
+        "source_day": "Tuesday",
+        "target_day": "Friday",
+        "base_probs": {
+          "Monday": 0.13588625192642212,
+          "Tuesday": 0.16391010582447052,
+          "Wednesday": 0.2702420651912689,
+          "Thursday": 0.10582831501960754,
+          "Friday": 0.068327896296978,
+          "Saturday": 0.11991919577121735,
+          "Sunday": 0.13588625192642212
+        },
+        "steered_probs": {
+          "Monday": 0.06362072378396988,
+          "Tuesday": 0.16246120631694794,
+          "Wednesday": 0.36611196398735046,
+          "Thursday": 0.17293904721736908,
+          "Friday": 0.11165785044431686,
+          "Saturday": 0.08695921301841736,
+          "Sunday": 0.03624999523162842
+        },
+        "control_probs": {
+          "Monday": 0.12453989684581757,
+          "Tuesday": 0.15022379159927368,
+          "Wednesday": 0.2987556755542755,
+          "Thursday": 0.09699176996946335,
+          "Friday": 0.08040900528430939,
+          "Saturday": 0.12453989684581757,
+          "Sunday": 0.12453989684581757
+        },
+        "steer_mag": 3.8762406634918807
+      },
+      {
+        "prompt": "Going back 1 days from Wednesday, which day do you land on?",
+        "source_day": "Tuesday",
+        "target_day": "Friday",
+        "base_probs": {
+          "Monday": 0.04764850437641144,
+          "Tuesday": 0.08362572640180588,
+          "Wednesday": 0.4246864914894104,
+          "Thursday": 0.22731830179691315,
+          "Friday": 0.04204965755343437,
+          "Saturday": 0.07379944622516632,
+          "Sunday": 0.10087188333272934
+        },
+        "steered_probs": {
+          "Monday": 0.019548287615180016,
+          "Tuesday": 0.210163876414299,
+          "Wednesday": 0.6081293225288391,
+          "Thursday": 0.11974777281284332,
+          "Friday": 0.011138278059661388,
+          "Saturday": 0.010463442653417587,
+          "Sunday": 0.02080904133617878
+        },
+        "control_probs": {
+          "Monday": 0.047849707305431366,
+          "Tuesday": 0.07411108165979385,
+          "Wednesday": 0.45398542284965515,
+          "Thursday": 0.20145480334758759,
+          "Friday": 0.035007596015930176,
+          "Saturday": 0.0654028058052063,
+          "Sunday": 0.1221885159611702
+        },
+        "steer_mag": 6.238191582033413
+      },
+      {
+        "prompt": "What day was it 2 days before Thursday?",
+        "source_day": "Tuesday",
+        "target_day": "Friday",
+        "base_probs": {
+          "Monday": 0.15764553844928741,
+          "Tuesday": 0.1678127944469452,
+          "Wednesday": 0.19015681743621826,
+          "Thursday": 0.15764553844928741,
+          "Friday": 0.10834809392690659,
+          "Saturday": 0.09561684727668762,
+          "Sunday": 0.12277446687221527
+        },
+        "steered_probs": {
+          "Monday": 0.1255158632993698,
+          "Tuesday": 0.043377120047807693,
+          "Wednesday": 0.09775184839963913,
+          "Thursday": 0.18262448906898499,
+          "Friday": 0.18262448906898499,
+          "Saturday": 0.2069406658411026,
+          "Sunday": 0.16116555035114288
+        },
+        "control_probs": {
+          "Monday": 0.13588179647922516,
+          "Tuesday": 0.17447566986083984,
+          "Wednesday": 0.19770684838294983,
+          "Thursday": 0.16390474140644073,
+          "Friday": 0.11264996975660324,
+          "Saturday": 0.08773188292980194,
+          "Sunday": 0.12764912843704224
+        },
+        "steer_mag": 4.592552195737611
+      },
+      {
+        "prompt": "If today is Thursday, what day was it 2 days ago?",
+        "source_day": "Tuesday",
+        "target_day": "Friday",
+        "base_probs": {
+          "Monday": 0.14395791292190552,
+          "Tuesday": 0.17364640533924103,
+          "Wednesday": 0.17364640533924103,
+          "Thursday": 0.1967671513557434,
+          "Friday": 0.0873148962855339,
+          "Saturday": 0.10532186925411224,
+          "Sunday": 0.11934531480073929
+        },
+        "steered_probs": {
+          "Monday": 0.07008792459964752,
+          "Tuesday": 0.11555545777082443,
+          "Wednesday": 0.20280614495277405,
+          "Thursday": 0.31411227583885193,
+          "Friday": 0.15794557332992554,
+          "Saturday": 0.10197732597589493,
+          "Sunday": 0.037515364587306976
+        },
+        "control_probs": {
+          "Monday": 0.1579018086194992,
+          "Tuesday": 0.19046592712402344,
+          "Wednesday": 0.19046592712402344,
+          "Thursday": 0.17892618477344513,
+          "Friday": 0.08451874554157257,
+          "Saturday": 0.09577228873968124,
+          "Sunday": 0.10194907337427139
+        },
+        "steer_mag": 3.744997760828275
+      },
+      {
+        "prompt": "Going back 2 days from Thursday, which day do you land on?",
+        "source_day": "Tuesday",
+        "target_day": "Friday",
+        "base_probs": {
+          "Monday": 0.10836106538772583,
+          "Tuesday": 0.24419541656970978,
+          "Wednesday": 0.19017958641052246,
+          "Thursday": 0.21550169587135315,
+          "Friday": 0.08439167588949203,
+          "Saturday": 0.06174227222800255,
+          "Sunday": 0.0956282988190651
+        },
+        "steered_probs": {
+          "Monday": 0.04719366505742073,
+          "Tuesday": 0.11321171373128891,
+          "Wednesday": 0.19869275391101837,
+          "Thursday": 0.3487166166305542,
+          "Friday": 0.18665456771850586,
+          "Saturday": 0.07309497892856598,
+          "Sunday": 0.03243569657206535
+        },
+        "control_probs": {
+          "Monday": 0.09907221049070358,
+          "Tuesday": 0.22326266765594482,
+          "Wednesday": 0.19702860713005066,
+          "Thursday": 0.20973587036132812,
+          "Friday": 0.0874309167265892,
+          "Saturday": 0.0639658272266388,
+          "Sunday": 0.11950390040874481
+        },
+        "steer_mag": 4.7765932002621305
+      },
+      {
+        "prompt": "What day was it 3 days before Friday?",
+        "source_day": "Tuesday",
+        "target_day": "Friday",
+        "base_probs": {
+          "Monday": 0.20245693624019623,
+          "Tuesday": 0.17866761982440948,
+          "Wednesday": 0.13914649188518524,
+          "Thursday": 0.06174587830901146,
+          "Friday": 0.13914649188518524,
+          "Saturday": 0.13071602582931519,
+          "Sunday": 0.14812065660953522
+        },
+        "steered_probs": {
+          "Monday": 0.1357984095811844,
+          "Tuesday": 0.06026018038392067,
+          "Wednesday": 0.09333278983831406,
+          "Thursday": 0.08236590027809143,
+          "Friday": 0.27006739377975464,
+          "Saturday": 0.23833362758159637,
+          "Sunday": 0.11984167993068695
+        },
+        "control_probs": {
+          "Monday": 0.20473293960094452,
+          "Tuesday": 0.1806761920452118,
+          "Wednesday": 0.1497858166694641,
+          "Thursday": 0.0586569719016552,
+          "Friday": 0.13218551874160767,
+          "Saturday": 0.12417680770158768,
+          "Sunday": 0.1497858166694641
+        },
+        "steer_mag": 4.254304417006937
+      },
+      {
+        "prompt": "If today is Friday, what day was it 3 days ago?",
+        "source_day": "Tuesday",
+        "target_day": "Friday",
+        "base_probs": {
+          "Monday": 0.1731279045343399,
+          "Tuesday": 0.1626386195421219,
+          "Wednesday": 0.11898895353078842,
+          "Thursday": 0.09266869723796844,
+          "Friday": 0.15278483927249908,
+          "Saturday": 0.1731279045343399,
+          "Sunday": 0.12666307389736176
+        },
+        "steered_probs": {
+          "Monday": 0.08291738480329514,
+          "Tuesday": 0.10001745074987411,
+          "Wednesday": 0.1455245465040207,
+          "Thursday": 0.16490091383457184,
+          "Friday": 0.2894101142883301,
+          "Saturday": 0.17553609609603882,
+          "Sunday": 0.04169347882270813
+        },
+        "control_probs": {
+          "Monday": 0.16102547943592072,
+          "Tuesday": 0.15126943588256836,
+          "Wednesday": 0.1178087592124939,
+          "Thursday": 0.08619073033332825,
+          "Friday": 0.1714107245206833,
+          "Saturday": 0.16102547943592072,
+          "Sunday": 0.15126943588256836
+        },
+        "steer_mag": 4.166587416835921
+      },
+      {
+        "prompt": "Going back 3 days from Friday, which day do you land on?",
+        "source_day": "Tuesday",
+        "target_day": "Friday",
+        "base_probs": {
+          "Monday": 0.13755913078784943,
+          "Tuesday": 0.2001473605632782,
+          "Wednesday": 0.14643092453479767,
+          "Thursday": 0.10713116079568863,
+          "Friday": 0.1766294240951538,
+          "Saturday": 0.09454291313886642,
+          "Sunday": 0.13755913078784943
+        },
+        "steered_probs": {
+          "Monday": 0.07648168504238129,
+          "Tuesday": 0.0866650938987732,
+          "Wednesday": 0.12609697878360748,
+          "Thursday": 0.1619117110967636,
+          "Friday": 0.3427671194076538,
+          "Saturday": 0.13422952592372894,
+          "Sunday": 0.07184788584709167
+        },
+        "control_probs": {
+          "Monday": 0.11611512303352356,
+          "Tuesday": 0.2037883847951889,
+          "Wednesday": 0.1587105542421341,
+          "Thursday": 0.11611512303352356,
+          "Friday": 0.1689465045928955,
+          "Saturday": 0.09626281261444092,
+          "Sunday": 0.14006157219409943
+        },
+        "steer_mag": 4.257414571269313
+      }
+    ]
+  },
+  {
+    "source_day": "Monday",
+    "target_day": "Thursday",
+    "records": [
+      {
+        "prompt": "What day was it 1 days before Tuesday?",
+        "source_day": "Monday",
+        "target_day": "Thursday",
+        "base_probs": {
+          "Monday": 0.16539707779884338,
+          "Tuesday": 0.2561720013618469,
+          "Wednesday": 0.1459624171257019,
+          "Thursday": 0.03466911241412163,
+          "Friday": 0.047387056052684784,
+          "Saturday": 0.09424041956663132,
+          "Sunday": 0.2561720013618469
+        },
+        "steered_probs": {
+          "Monday": 0.15988613665103912,
+          "Tuesday": 0.360308974981308,
+          "Wednesday": 0.1410990059375763,
+          "Thursday": 0.023033780977129936,
+          "Friday": 0.027784043923020363,
+          "Saturday": 0.05525517091155052,
+          "Sunday": 0.23263294994831085
+        },
+        "control_probs": {
+          "Monday": 0.16428637504577637,
+          "Tuesday": 0.254451721906662,
+          "Wednesday": 0.13619819283485413,
+          "Thursday": 0.03443629667162895,
+          "Friday": 0.05010451376438141,
+          "Saturday": 0.10607125610113144,
+          "Sunday": 0.254451721906662
+        },
+        "steer_mag": 2.2265944389724353
+      },
+      {
+        "prompt": "If today is Tuesday, what day was it 1 days ago?",
+        "source_day": "Monday",
+        "target_day": "Thursday",
+        "base_probs": {
+          "Monday": 0.16542236506938934,
+          "Tuesday": 0.3289816677570343,
+          "Wednesday": 0.15539993345737457,
+          "Thursday": 0.06085548922419548,
+          "Friday": 0.05370477959513664,
+          "Saturday": 0.10680470615625381,
+          "Sunday": 0.12883107364177704
+        },
+        "steered_probs": {
+          "Monday": 0.07947761565446854,
+          "Tuesday": 0.24480830132961273,
+          "Wednesday": 0.2299761176109314,
+          "Thursday": 0.1484837383031845,
+          "Friday": 0.1484837383031845,
+          "Saturday": 0.11563924700021744,
+          "Sunday": 0.033131200820207596
+        },
+        "control_probs": {
+          "Monday": 0.15610580146312714,
+          "Tuesday": 0.33047598600387573,
+          "Wednesday": 0.17689105868339539,
+          "Thursday": 0.057428114116191864,
+          "Friday": 0.05068013444542885,
+          "Saturday": 0.11420943588018417,
+          "Sunday": 0.11420943588018417
+        },
+        "steer_mag": 4.871928455235651
+      },
+      {
+        "prompt": "Going back 1 days from Tuesday, which day do you land on?",
+        "source_day": "Monday",
+        "target_day": "Thursday",
+        "base_probs": {
+          "Monday": 0.1151069924235344,
+          "Tuesday": 0.40176287293434143,
+          "Wednesday": 0.16747967898845673,
+          "Thursday": 0.10813301056623459,
+          "Friday": 0.03297870606184006,
+          "Saturday": 0.07911179959774017,
+          "Sunday": 0.09542704373598099
+        },
+        "steered_probs": {
+          "Monday": 0.024506086483597755,
+          "Tuesday": 0.6727821230888367,
+          "Wednesday": 0.2184203714132309,
+          "Thursday": 0.05878704413771629,
+          "Friday": 0.009015285409986973,
+          "Saturday": 0.0074739339761435986,
+          "Sunday": 0.009015285409986973
+        },
+        "control_probs": {
+          "Monday": 0.11444621533155441,
+          "Tuesday": 0.37525466084480286,
+          "Wednesday": 0.1772577464580536,
+          "Thursday": 0.13804848492145538,
+          "Friday": 0.0349041186273098,
+          "Saturday": 0.06520948559045792,
+          "Sunday": 0.09487923979759216
+        },
+        "steer_mag": 6.848975969207677
+      },
+      {
+        "prompt": "What day was it 2 days before Wednesday?",
+        "source_day": "Monday",
+        "target_day": "Thursday",
+        "base_probs": {
+          "Monday": 0.14050807058811188,
+          "Tuesday": 0.19205176830291748,
+          "Wednesday": 0.31663984060287476,
+          "Thursday": 0.07520855218172073,
+          "Friday": 0.06637131422758102,
+          "Saturday": 0.08522245287895203,
+          "Sunday": 0.12399793416261673
+        },
+        "steered_probs": {
+          "Monday": 0.1369321346282959,
+          "Tuesday": 0.036854784935712814,
+          "Wednesday": 0.14576350152492523,
+          "Thursday": 0.0780215784907341,
+          "Friday": 0.12084218114614487,
+          "Saturday": 0.25582289695739746,
+          "Sunday": 0.22576291859149933
+        },
+        "control_probs": {
+          "Monday": 0.15210486948490143,
+          "Tuesday": 0.2079027146100998,
+          "Wednesday": 0.30249667167663574,
+          "Thursday": 0.07184924930334091,
+          "Friday": 0.05956512317061424,
+          "Saturday": 0.07184924930334091,
+          "Sunday": 0.1342320740222931
+        },
+        "steer_mag": 6.013115073817838
+      },
+      {
+        "prompt": "If today is Wednesday, what day was it 2 days ago?",
+        "source_day": "Monday",
+        "target_day": "Thursday",
+        "base_probs": {
+          "Monday": 0.152630016207695,
+          "Tuesday": 0.22207535803318024,
+          "Wednesday": 0.2516443431377411,
+          "Thursday": 0.11886836588382721,
+          "Friday": 0.0561494454741478,
+          "Saturday": 0.08696595579385757,
+          "Sunday": 0.11166650056838989
+        },
+        "steered_probs": {
+          "Monday": 0.1049778163433075,
+          "Tuesday": 0.08175680786371231,
+          "Wednesday": 0.22223804891109467,
+          "Thursday": 0.1961243897676468,
+          "Friday": 0.1347941905260086,
+          "Saturday": 0.17307916283607483,
+          "Sunday": 0.08702966570854187
+        },
+        "control_probs": {
+          "Monday": 0.14842632412910461,
+          "Tuesday": 0.20287472009658813,
+          "Wednesday": 0.27729687094688416,
+          "Thursday": 0.1155945286154747,
+          "Friday": 0.04818697273731232,
+          "Saturday": 0.08457077294588089,
+          "Sunday": 0.12304974347352982
+        },
+        "steer_mag": 4.27008684165779
+      },
+      {
+        "prompt": "Going back 2 days from Wednesday, which day do you land on?",
+        "source_day": "Monday",
+        "target_day": "Thursday",
+        "base_probs": {
+          "Monday": 0.13547059893608093,
+          "Tuesday": 0.28679126501083374,
+          "Wednesday": 0.2377583086490631,
+          "Thursday": 0.08746639639139175,
+          "Friday": 0.05305105075240135,
+          "Saturday": 0.06399177759885788,
+          "Sunday": 0.13547059893608093
+        },
+        "steered_probs": {
+          "Monday": 0.07002449780702591,
+          "Tuesday": 0.11545086652040482,
+          "Wednesday": 0.2444095015525818,
+          "Thursday": 0.20262259244918823,
+          "Friday": 0.17881380021572113,
+          "Saturday": 0.12289681285619736,
+          "Sunday": 0.06578192114830017
+        },
+        "control_probs": {
+          "Monday": 0.13235804438591003,
+          "Tuesday": 0.2982734441757202,
+          "Wednesday": 0.2472773790359497,
+          "Thursday": 0.08545678108930588,
+          "Friday": 0.045741718262434006,
+          "Saturday": 0.06655380874872208,
+          "Sunday": 0.12433887273073196
+        },
+        "steer_mag": 5.75517353905202
+      },
+      {
+        "prompt": "What day was it 3 days before Thursday?",
+        "source_day": "Monday",
+        "target_day": "Thursday",
+        "base_probs": {
+          "Monday": 0.155735582113266,
+          "Tuesday": 0.16577966511249542,
+          "Wednesday": 0.19996844232082367,
+          "Thursday": 0.155735582113266,
+          "Friday": 0.10703539848327637,
+          "Saturday": 0.09445840120315552,
+          "Sunday": 0.12128698825836182
+        },
+        "steered_probs": {
+          "Monday": 0.14217711985111237,
+          "Tuesday": 0.04913509637117386,
+          "Wednesday": 0.0977168083190918,
+          "Thursday": 0.1714983433485031,
+          "Friday": 0.16110777854919434,
+          "Saturday": 0.20686648786067963,
+          "Sunday": 0.1714983433485031
+        },
+        "control_probs": {
+          "Monday": 0.15974682569503784,
+          "Tuesday": 0.17004962265491486,
+          "Wednesday": 0.18101687729358673,
+          "Thursday": 0.1500682681798935,
+          "Friday": 0.10979228466749191,
+          "Saturday": 0.0968913584947586,
+          "Sunday": 0.13243477046489716
+        },
+        "steer_mag": 4.247464674079639
+      },
+      {
+        "prompt": "If today is Thursday, what day was it 3 days ago?",
+        "source_day": "Monday",
+        "target_day": "Thursday",
+        "base_probs": {
+          "Monday": 0.13898250460624695,
+          "Tuesday": 0.17845706641674042,
+          "Wednesday": 0.16764488816261292,
+          "Thursday": 0.215260311961174,
+          "Friday": 0.08973384648561478,
+          "Saturday": 0.10168176889419556,
+          "Sunday": 0.10823968052864075
+        },
+        "steered_probs": {
+          "Monday": 0.06348145008087158,
+          "Tuesday": 0.11141341179609299,
+          "Wednesday": 0.19553662836551666,
+          "Thursday": 0.34317746758461,
+          "Friday": 0.16210554540157318,
+          "Saturday": 0.09236496686935425,
+          "Sunday": 0.03192047402262688
+        },
+        "control_probs": {
+          "Monday": 0.14066968858242035,
+          "Tuesday": 0.16968002915382385,
+          "Wednesday": 0.1593996286392212,
+          "Thursday": 0.2178734689950943,
+          "Friday": 0.08532047271728516,
+          "Saturday": 0.10291613638401031,
+          "Sunday": 0.12414056807756424
+        },
+        "steer_mag": 3.985946546470944
+      },
+      {
+        "prompt": "Going back 3 days from Thursday, which day do you land on?",
+        "source_day": "Monday",
+        "target_day": "Thursday",
+        "base_probs": {
+          "Monday": 0.12186084687709808,
+          "Tuesday": 0.20091456174850464,
+          "Wednesday": 0.1887417584657669,
+          "Thursday": 0.21387243270874023,
+          "Friday": 0.0949053168296814,
+          "Saturday": 0.06522741168737411,
+          "Sunday": 0.11447767168283463
+        },
+        "steered_probs": {
+          "Monday": 0.06749539077281952,
+          "Tuesday": 0.0866658017039299,
+          "Wednesday": 0.1521032154560089,
+          "Thursday": 0.34276989102363586,
+          "Friday": 0.19530439376831055,
+          "Saturday": 0.09225526452064514,
+          "Sunday": 0.06340605765581131
+        },
+        "control_probs": {
+          "Monday": 0.1311894804239273,
+          "Tuesday": 0.19087955355644226,
+          "Wednesday": 0.15824471414089203,
+          "Thursday": 0.2302446961402893,
+          "Friday": 0.07957043498754501,
+          "Saturday": 0.07022066414356232,
+          "Sunday": 0.13965046405792236
+        },
+        "steer_mag": 4.3173165724527465
+      }
+    ]
+  },
+  {
+    "source_day": "Wednesday",
+    "target_day": "Sunday",
+    "records": [
+      {
+        "prompt": "What day was it 1 days before Thursday?",
+        "source_day": "Wednesday",
+        "target_day": "Sunday",
+        "base_probs": {
+          "Monday": 0.07328420877456665,
+          "Tuesday": 0.04175608232617378,
+          "Wednesday": 0.14574304223060608,
+          "Thursday": 0.3085380494594574,
+          "Friday": 0.13691292703151703,
+          "Saturday": 0.10662788897752762,
+          "Sunday": 0.18713778257369995
+        },
+        "steered_probs": {
+          "Monday": 0.09454973042011261,
+          "Tuesday": 0.22681303322315216,
+          "Wednesday": 0.27358871698379517,
+          "Thursday": 0.18803460896015167,
+          "Friday": 0.05060882866382599,
+          "Saturday": 0.028836039826273918,
+          "Sunday": 0.13756905496120453
+        },
+        "control_probs": {
+          "Monday": 0.0712130069732666,
+          "Tuesday": 0.04057594761252403,
+          "Wednesday": 0.15075792372226715,
+          "Thursday": 0.3191545307636261,
+          "Friday": 0.16048097610473633,
+          "Saturday": 0.09733663499355316,
+          "Sunday": 0.16048097610473633
+        },
+        "steer_mag": 6.434825780303137
+      },
+      {
+        "prompt": "If today is Thursday, what day was it 1 days ago?",
+        "source_day": "Wednesday",
+        "target_day": "Sunday",
+        "base_probs": {
+          "Monday": 0.12670882046222687,
+          "Tuesday": 0.12670882046222687,
+          "Wednesday": 0.12670882046222687,
+          "Thursday": 0.22238090634346008,
+          "Friday": 0.11903192847967148,
+          "Saturday": 0.14357990026474,
+          "Sunday": 0.13488084077835083
+        },
+        "steered_probs": {
+          "Monday": 0.043919309973716736,
+          "Tuesday": 0.14400586485862732,
+          "Wednesday": 0.20952729880809784,
+          "Thursday": 0.34545210003852844,
+          "Friday": 0.17370422184467316,
+          "Saturday": 0.06390221416950226,
+          "Sunday": 0.019489074125885963
+        },
+        "control_probs": {
+          "Monday": 0.12062447518110275,
+          "Tuesday": 0.13668543100357056,
+          "Wednesday": 0.14550088346004486,
+          "Thursday": 0.18682684004306793,
+          "Friday": 0.10645072907209396,
+          "Saturday": 0.1755075752735138,
+          "Sunday": 0.12840408086776733
+        },
+        "steer_mag": 5.352055548746832
+      },
+      {
+        "prompt": "Going back 1 days from Thursday, which day do you land on?",
+        "source_day": "Wednesday",
+        "target_day": "Sunday",
+        "base_probs": {
+          "Monday": 0.04579940810799599,
+          "Tuesday": 0.051897525787353516,
+          "Wednesday": 0.10321056097745895,
+          "Thursday": 0.5579509735107422,
+          "Friday": 0.08038046956062317,
+          "Saturday": 0.08038046956062317,
+          "Sunday": 0.08038046956062317
+        },
+        "steered_probs": {
+          "Monday": 0.018303677439689636,
+          "Tuesday": 0.2526744604110718,
+          "Wednesday": 0.2689705789089203,
+          "Thursday": 0.41658976674079895,
+          "Friday": 0.025018159300088882,
+          "Saturday": 0.008646043948829174,
+          "Sunday": 0.009797252714633942
+        },
+        "control_probs": {
+          "Monday": 0.04817508906126022,
+          "Tuesday": 0.042514368891716,
+          "Wednesday": 0.11556603759527206,
+          "Thursday": 0.5179310441017151,
+          "Friday": 0.09580761194229126,
+          "Saturday": 0.09000291675329208,
+          "Sunday": 0.09000291675329208
+        },
+        "steer_mag": 8.244456936884026
+      },
+      {
+        "prompt": "What day was it 2 days before Friday?",
+        "source_day": "Wednesday",
+        "target_day": "Sunday",
+        "base_probs": {
+          "Monday": 0.20234692096710205,
+          "Tuesday": 0.17857052385807037,
+          "Wednesday": 0.1306449919939041,
+          "Thursday": 0.06171232461929321,
+          "Friday": 0.14804016053676605,
+          "Saturday": 0.1306449919939041,
+          "Sunday": 0.14804016053676605
+        },
+        "steered_probs": {
+          "Monday": 0.14369741082191467,
+          "Tuesday": 0.04116999730467796,
+          "Wednesday": 0.06376533955335617,
+          "Thursday": 0.06787785142660141,
+          "Friday": 0.2521968185901642,
+          "Saturday": 0.26846209168434143,
+          "Sunday": 0.16283050179481506
+        },
+        "control_probs": {
+          "Monday": 0.2343170940876007,
+          "Tuesday": 0.18248632550239563,
+          "Wednesday": 0.13350985944271088,
+          "Thursday": 0.059244636446237564,
+          "Friday": 0.16104362905025482,
+          "Saturday": 0.10397757589817047,
+          "Sunday": 0.12542089819908142
+        },
+        "steer_mag": 4.92848280785376
+      },
+      {
+        "prompt": "If today is Friday, what day was it 2 days ago?",
+        "source_day": "Wednesday",
+        "target_day": "Sunday",
+        "base_probs": {
+          "Monday": 0.17097987234592438,
+          "Tuesday": 0.16062073409557343,
+          "Wednesday": 0.125091552734375,
+          "Thursday": 0.09742140024900436,
+          "Friday": 0.14174729585647583,
+          "Saturday": 0.17097987234592438,
+          "Sunday": 0.13315926492214203
+        },
+        "steered_probs": {
+          "Monday": 0.08135282248258591,
+          "Tuesday": 0.07642390578985214,
+          "Wednesday": 0.12600171566009521,
+          "Thursday": 0.1617894172668457,
+          "Friday": 0.28394925594329834,
+          "Saturday": 0.22113989293575287,
+          "Sunday": 0.04934297874569893
+        },
+        "control_probs": {
+          "Monday": 0.15543299913406372,
+          "Tuesday": 0.15543299913406372,
+          "Wednesday": 0.12105133384466171,
+          "Thursday": 0.08856304734945297,
+          "Friday": 0.14601577818393707,
+          "Saturday": 0.18748797476291656,
+          "Sunday": 0.14601577818393707
+        },
+        "steer_mag": 4.458082370264786
+      },
+      {
+        "prompt": "Going back 2 days from Friday, which day do you land on?",
+        "source_day": "Wednesday",
+        "target_day": "Sunday",
+        "base_probs": {
+          "Monday": 0.11236649006605148,
+          "Tuesday": 0.2099282294511795,
+          "Wednesday": 0.15358677506446838,
+          "Thursday": 0.12732791900634766,
+          "Friday": 0.18526101112365723,
+          "Saturday": 0.09916307777166367,
+          "Sunday": 0.11236649006605148
+        },
+        "steered_probs": {
+          "Monday": 0.054322563111782074,
+          "Tuesday": 0.07425013929605484,
+          "Wednesday": 0.11500086635351181,
+          "Thursday": 0.18960435688495636,
+          "Friday": 0.3770733177661896,
+          "Saturday": 0.13871751725673676,
+          "Sunday": 0.05103132128715515
+        },
+        "control_probs": {
+          "Monday": 0.12637273967266083,
+          "Tuesday": 0.22179105877876282,
+          "Wednesday": 0.14319907128810883,
+          "Thursday": 0.12637273967266083,
+          "Friday": 0.17273105680942535,
+          "Saturday": 0.10476667433977127,
+          "Sunday": 0.10476667433977127
+        },
+        "steer_mag": 4.855505149641099
+      },
+      {
+        "prompt": "What day was it 3 days before Saturday?",
+        "source_day": "Wednesday",
+        "target_day": "Sunday",
+        "base_probs": {
+          "Monday": 0.17581680417060852,
+          "Tuesday": 0.145757257938385,
+          "Wednesday": 0.11351586133241653,
+          "Thursday": 0.03923003375530243,
+          "Friday": 0.0732913538813591,
+          "Saturday": 0.2403130829334259,
+          "Sunday": 0.21207554638385773
+        },
+        "steered_probs": {
+          "Monday": 0.12262434512376785,
+          "Tuesday": 0.05441422760486603,
+          "Wednesday": 0.084278404712677,
+          "Thursday": 0.05441422760486603,
+          "Friday": 0.1389515995979309,
+          "Saturday": 0.3777095675468445,
+          "Sunday": 0.1676076054573059
+        },
+        "control_probs": {
+          "Monday": 0.16553442180156708,
+          "Tuesday": 0.13723285496234894,
+          "Wednesday": 0.10040169954299927,
+          "Thursday": 0.036935724318027496,
+          "Friday": 0.07819291949272156,
+          "Saturday": 0.24085116386413574,
+          "Sunday": 0.24085116386413574
+        },
+        "steer_mag": 3.637204321537356
+      },
+      {
+        "prompt": "If today is Saturday, what day was it 3 days ago?",
+        "source_day": "Wednesday",
+        "target_day": "Sunday",
+        "base_probs": {
+          "Monday": 0.13080020248889923,
+          "Tuesday": 0.14821605384349823,
+          "Wednesday": 0.10843717306852341,
+          "Thursday": 0.0657704696059227,
+          "Friday": 0.05804223567247391,
+          "Saturday": 0.24436694383621216,
+          "Sunday": 0.24436694383621216
+        },
+        "steered_probs": {
+          "Monday": 0.031192664057016373,
+          "Tuesday": 0.09608016908168793,
+          "Wednesday": 0.20340172946453094,
+          "Thursday": 0.2165200114250183,
+          "Friday": 0.23048435151576996,
+          "Saturday": 0.20340172946453094,
+          "Sunday": 0.018919307738542557
+        },
+        "control_probs": {
+          "Monday": 0.14855089783668518,
+          "Tuesday": 0.13109569251537323,
+          "Wednesday": 0.08464174717664719,
+          "Thursday": 0.05133781582117081,
+          "Friday": 0.06192522495985031,
+          "Saturday": 0.24491900205612183,
+          "Sunday": 0.27752959728240967
+        },
+        "steer_mag": 8.119518597551728
+      },
+      {
+        "prompt": "Going back 3 days from Saturday, which day do you land on?",
+        "source_day": "Wednesday",
+        "target_day": "Sunday",
+        "base_probs": {
+          "Monday": 0.10159581154584885,
+          "Tuesday": 0.14782103896141052,
+          "Wednesday": 0.09544043242931366,
+          "Thursday": 0.07432908564805984,
+          "Friday": 0.10814817994832993,
+          "Saturday": 0.22894969582557678,
+          "Sunday": 0.24371568858623505
+        },
+        "steered_probs": {
+          "Monday": 0.06397732347249985,
+          "Tuesday": 0.04982559382915497,
+          "Wednesday": 0.06810350716114044,
+          "Thursday": 0.09909001737833023,
+          "Friday": 0.20977357029914856,
+          "Saturday": 0.3458581566810608,
+          "Sunday": 0.16337181627750397
+        },
+        "control_probs": {
+          "Monday": 0.11773449927568436,
+          "Tuesday": 0.16092398762702942,
+          "Wednesday": 0.08613640069961548,
+          "Thursday": 0.06301873922348022,
+          "Friday": 0.10390033572912216,
+          "Saturday": 0.23414301872253418,
+          "Sunday": 0.23414301872253418
+        },
+        "steer_mag": 4.13961244077035
+      }
+    ]
+  },
+  {
+    "source_day": "Friday",
+    "target_day": "Monday",
+    "records": [
+      {
+        "prompt": "What day was it 3 days before Monday?",
+        "source_day": "Friday",
+        "target_day": "Monday",
+        "base_probs": {
+          "Monday": 0.2826579511165619,
+          "Tuesday": 0.26553258299827576,
+          "Wednesday": 0.13351815938949585,
+          "Thursday": 0.04072074219584465,
+          "Friday": 0.06306951493024826,
+          "Saturday": 0.08098286390304565,
+          "Sunday": 0.13351815938949585
+        },
+        "steered_probs": {
+          "Monday": 0.23525680601596832,
+          "Tuesday": 0.03607780113816261,
+          "Wednesday": 0.04632481187582016,
+          "Thursday": 0.04351813346147537,
+          "Friday": 0.13404527306556702,
+          "Saturday": 0.28377386927604675,
+          "Sunday": 0.22100330889225006
+        },
+        "control_probs": {
+          "Monday": 0.29574882984161377,
+          "Tuesday": 0.2163744568824768,
+          "Wednesday": 0.12328645586967468,
+          "Thursday": 0.0400252528488636,
+          "Friday": 0.07024650275707245,
+          "Saturday": 0.09601558744907379,
+          "Sunday": 0.15830294787883759
+        },
+        "steer_mag": 6.869908800689126
+      },
+      {
+        "prompt": "If today is Monday, what day was it 3 days ago?",
+        "source_day": "Friday",
+        "target_day": "Monday",
+        "base_probs": {
+          "Monday": 0.26667320728302,
+          "Tuesday": 0.25051629543304443,
+          "Wednesday": 0.11116593331098557,
+          "Thursday": 0.05589774250984192,
+          "Friday": 0.05589774250984192,
+          "Saturday": 0.0981035977602005,
+          "Sunday": 0.16174547374248505
+        },
+        "steered_probs": {
+          "Monday": 0.1537342220544815,
+          "Tuesday": 0.044045593589544296,
+          "Wednesday": 0.0682191476225853,
+          "Thursday": 0.11247436702251434,
+          "Friday": 0.2101297825574875,
+          "Saturday": 0.3057370185852051,
+          "Sunday": 0.10565987974405289
+        },
+        "control_probs": {
+          "Monday": 0.30779945850372314,
+          "Tuesday": 0.2551747262477875,
+          "Wednesday": 0.09992785006761551,
+          "Thursday": 0.05348752439022064,
+          "Friday": 0.04434271901845932,
+          "Saturday": 0.093873530626297,
+          "Sunday": 0.14539416134357452
+        },
+        "steer_mag": 7.136002124015772
+      },
+      {
+        "prompt": "Going back 3 days from Monday, which day do you land on?",
+        "source_day": "Friday",
+        "target_day": "Monday",
+        "base_probs": {
+          "Monday": 0.1819961816072464,
+          "Tuesday": 0.1819961816072464,
+          "Wednesday": 0.10369829833507538,
+          "Thursday": 0.0669526532292366,
+          "Friday": 0.09151343256235123,
+          "Saturday": 0.1250840276479721,
+          "Sunday": 0.24875928461551666
+        },
+        "steered_probs": {
+          "Monday": 0.11091973632574081,
+          "Tuesday": 0.02804490365087986,
+          "Wednesday": 0.04080509394407272,
+          "Thursday": 0.07623395323753357,
+          "Friday": 0.19467021524906158,
+          "Saturday": 0.28324347734451294,
+          "Sunday": 0.26608261466026306
+        },
+        "control_probs": {
+          "Monday": 0.14678139984607697,
+          "Tuesday": 0.16632510721683502,
+          "Wednesday": 0.10088127106428146,
+          "Thursday": 0.06933461874723434,
+          "Friday": 0.12953412532806396,
+          "Saturday": 0.12953412532806396,
+          "Sunday": 0.25760936737060547
+        },
+        "steer_mag": 6.499026973487011
+      },
+      {
+        "prompt": "What day was it 1 days before Saturday?",
+        "source_day": "Friday",
+        "target_day": "Monday",
+        "base_probs": {
+          "Monday": 0.04202571511268616,
+          "Tuesday": 0.01751892641186714,
+          "Wednesday": 0.027133841067552567,
+          "Thursday": 0.015460396185517311,
+          "Friday": 0.0611470565199852,
+          "Saturday": 0.5449977517127991,
+          "Sunday": 0.2917163074016571
+        },
+        "steered_probs": {
+          "Monday": 0.05598321929574013,
+          "Tuesday": 0.3026424050331116,
+          "Wednesday": 0.20800289511680603,
+          "Thursday": 0.03614548221230507,
+          "Friday": 0.06752865016460419,
+          "Saturday": 0.1954006403684616,
+          "Sunday": 0.13429675996303558
+        },
+        "control_probs": {
+          "Monday": 0.0354902446269989,
+          "Tuesday": 0.013898178935050964,
+          "Wednesday": 0.025965215638279915,
+          "Thursday": 0.012265099212527275,
+          "Friday": 0.07058078050613403,
+          "Saturday": 0.46024447679519653,
+          "Sunday": 0.38155606389045715
+        },
+        "steer_mag": 8.95875102361295
+      },
+      {
+        "prompt": "If today is Saturday, what day was it 1 days ago?",
+        "source_day": "Friday",
+        "target_day": "Monday",
+        "base_probs": {
+          "Monday": 0.11025512963533401,
+          "Tuesday": 0.09140472114086151,
+          "Wednesday": 0.07118606567382812,
+          "Thursday": 0.04317653179168701,
+          "Friday": 0.06282148510217667,
+          "Saturday": 0.33960971236228943,
+          "Sunday": 0.28154635429382324
+        },
+        "steered_probs": {
+          "Monday": 0.02736368402838707,
+          "Tuesday": 0.0955086499452591,
+          "Wednesday": 0.1899416148662567,
+          "Thursday": 0.1784336417913437,
+          "Friday": 0.25961941480636597,
+          "Saturday": 0.22911332547664642,
+          "Sunday": 0.02001969888806343
+        },
+        "control_probs": {
+          "Monday": 0.09185978770256042,
+          "Tuesday": 0.08106597512960434,
+          "Wednesday": 0.06720605492591858,
+          "Thursday": 0.04916900023818016,
+          "Friday": 0.04619000107049942,
+          "Saturday": 0.3011966347694397,
+          "Sunday": 0.3633124828338623
+        },
+        "steer_mag": 8.622203150376295
+      },
+      {
+        "prompt": "Going back 1 days from Saturday, which day do you land on?",
+        "source_day": "Friday",
+        "target_day": "Monday",
+        "base_probs": {
+          "Monday": 0.04208625853061676,
+          "Tuesday": 0.030790964141488075,
+          "Wednesday": 0.025526605546474457,
+          "Thursday": 0.04208625853061676,
+          "Friday": 0.044800590723752975,
+          "Saturday": 0.6583398580551147,
+          "Sunday": 0.1563694179058075
+        },
+        "steered_probs": {
+          "Monday": 0.02067057229578495,
+          "Tuesday": 0.3900250792503357,
+          "Wednesday": 0.2518191337585449,
+          "Thursday": 0.13478906452655792,
+          "Friday": 0.05278415605425835,
+          "Saturday": 0.13478906452655792,
+          "Sunday": 0.015122913755476475
+        },
+        "control_probs": {
+          "Monday": 0.03555937483906746,
+          "Tuesday": 0.037852756679058075,
+          "Wednesday": 0.027693666517734528,
+          "Thursday": 0.05173858627676964,
+          "Friday": 0.03555937483906746,
+          "Saturday": 0.6709561944007874,
+          "Sunday": 0.1406400501728058
+        },
+        "steer_mag": 10.096675630834705
+      },
+      {
+        "prompt": "What day was it 2 days before Sunday?",
+        "source_day": "Friday",
+        "target_day": "Monday",
+        "base_probs": {
+          "Monday": 0.21609239280223846,
+          "Tuesday": 0.12312572449445724,
+          "Wednesday": 0.09008070826530457,
+          "Thursday": 0.03313883766531944,
+          "Friday": 0.05816047638654709,
+          "Saturday": 0.12312572449445724,
+          "Sunday": 0.35627612471580505
+        },
+        "steered_probs": {
+          "Monday": 0.16508910059928894,
+          "Tuesday": 0.05359658971428871,
+          "Wednesday": 0.06881938129663467,
+          "Thursday": 0.04443313181400299,
+          "Friday": 0.10658954083919525,
+          "Saturday": 0.21197861433029175,
+          "Sunday": 0.3494936525821686
+        },
+        "control_probs": {
+          "Monday": 0.2202703356742859,
+          "Tuesday": 0.13360071182250977,
+          "Wednesday": 0.09182233363389969,
+          "Thursday": 0.03595814108848572,
+          "Friday": 0.05928495526313782,
+          "Saturday": 0.11790221184492111,
+          "Sunday": 0.3411613702774048
+        },
+        "steer_mag": 3.3113185242428362
+      },
+      {
+        "prompt": "If today is Sunday, what day was it 2 days ago?",
+        "source_day": "Friday",
+        "target_day": "Monday",
+        "base_probs": {
+          "Monday": 0.20924879610538483,
+          "Tuesday": 0.1269157975912094,
+          "Wednesday": 0.09884212166070938,
+          "Thursday": 0.06381727010011673,
+          "Friday": 0.052906379103660583,
+          "Saturday": 0.14381444454193115,
+          "Sunday": 0.3044551908969879
+        },
+        "steered_probs": {
+          "Monday": 0.08279469609260559,
+          "Tuesday": 0.026879502460360527,
+          "Wednesday": 0.07306606322526932,
+          "Thursday": 0.1365053802728653,
+          "Friday": 0.19861415028572083,
+          "Saturday": 0.3274593651294708,
+          "Sunday": 0.15468084812164307
+        },
+        "control_probs": {
+          "Monday": 0.226891428232193,
+          "Tuesday": 0.10717591643333435,
+          "Wednesday": 0.09458242356777191,
+          "Thursday": 0.05736713856458664,
+          "Friday": 0.05736713856458664,
+          "Saturday": 0.1464921087026596,
+          "Sunday": 0.31012383103370667
+        },
+        "steer_mag": 7.0774574958501315
+      },
+      {
+        "prompt": "Going back 2 days from Sunday, which day do you land on?",
+        "source_day": "Friday",
+        "target_day": "Monday",
+        "base_probs": {
+          "Monday": 0.15914015471935272,
+          "Tuesday": 0.1694038063287735,
+          "Wednesday": 0.08002069592475891,
+          "Thursday": 0.06232018023729324,
+          "Friday": 0.09067532420158386,
+          "Saturday": 0.15914015471935272,
+          "Sunday": 0.27929967641830444
+        },
+        "steered_probs": {
+          "Monday": 0.08454733341932297,
+          "Tuesday": 0.022755606099963188,
+          "Wednesday": 0.029218774288892746,
+          "Thursday": 0.06584552675485611,
+          "Friday": 0.1681424379348755,
+          "Saturday": 0.33439117670059204,
+          "Sunday": 0.2950991690158844
+        },
+        "control_probs": {
+          "Monday": 0.14974258840084076,
+          "Tuesday": 0.16968058049678802,
+          "Wednesday": 0.07073338329792023,
+          "Thursday": 0.05864003673195839,
+          "Friday": 0.0908234640955925,
+          "Saturday": 0.18062403798103333,
+          "Sunday": 0.27975597977638245
+        },
+        "steer_mag": 6.613480676000044
+      }
+    ]
+  },
+  {
+    "source_day": "Sunday",
+    "target_day": "Wednesday",
+    "records": [
+      {
+        "prompt": "What day was it 1 days before Monday?",
+        "source_day": "Sunday",
+        "target_day": "Wednesday",
+        "base_probs": {
+          "Monday": 0.3472606837749481,
+          "Tuesday": 0.07748433202505112,
+          "Wednesday": 0.05668874830007553,
+          "Thursday": 0.022199630737304688,
+          "Friday": 0.06423676759004593,
+          "Saturday": 0.10590852797031403,
+          "Sunday": 0.326221227645874
+        },
+        "steered_probs": {
+          "Monday": 0.3105871081352234,
+          "Tuesday": 0.2418854832649231,
+          "Wednesday": 0.12947197258472443,
+          "Thursday": 0.032735638320446014,
+          "Friday": 0.06510259211063385,
+          "Saturday": 0.053971946239471436,
+          "Sunday": 0.16624531149864197
+        },
+        "control_probs": {
+          "Monday": 0.31977397203445435,
+          "Tuesday": 0.07135121524333954,
+          "Wednesday": 0.05915223807096481,
+          "Thursday": 0.02465832233428955,
+          "Friday": 0.06702826917171478,
+          "Saturday": 0.11763826757669449,
+          "Sunday": 0.3403976261615753
+        },
+        "steer_mag": 4.079824809186464
+      },
+      {
+        "prompt": "If today is Monday, what day was it 1 days ago?",
+        "source_day": "Sunday",
+        "target_day": "Wednesday",
+        "base_probs": {
+          "Monday": 0.28650376200675964,
+          "Tuesday": 0.15335440635681152,
+          "Wednesday": 0.08208470046520233,
+          "Thursday": 0.0412747822701931,
+          "Friday": 0.06392762809991837,
+          "Saturday": 0.1353347897529602,
+          "Sunday": 0.23751994967460632
+        },
+        "steered_probs": {
+          "Monday": 0.16024461388587952,
+          "Tuesday": 0.06679989397525787,
+          "Wednesday": 0.09130463004112244,
+          "Thursday": 0.09719327092170715,
+          "Friday": 0.21902841329574585,
+          "Saturday": 0.2481917142868042,
+          "Sunday": 0.11723746359348297
+        },
+        "control_probs": {
+          "Monday": 0.2564537525177002,
+          "Tuesday": 0.17625792324543,
+          "Wednesday": 0.07821398228406906,
+          "Thursday": 0.041864924132823944,
+          "Friday": 0.06902359426021576,
+          "Saturday": 0.13726980984210968,
+          "Sunday": 0.24091601371765137
+        },
+        "steer_mag": 5.121562354747507
+      },
+      {
+        "prompt": "Going back 1 days from Monday, which day do you land on?",
+        "source_day": "Sunday",
+        "target_day": "Wednesday",
+        "base_probs": {
+          "Monday": 0.31278055906295776,
+          "Tuesday": 0.1572759449481964,
+          "Wednesday": 0.08418374508619308,
+          "Thursday": 0.08418374508619308,
+          "Friday": 0.04506031423807144,
+          "Saturday": 0.10154497623443604,
+          "Sunday": 0.21497072279453278
+        },
+        "steered_probs": {
+          "Monday": 0.07096905261278152,
+          "Tuesday": 0.40839868783950806,
+          "Wednesday": 0.2636820077896118,
+          "Thursday": 0.17024590075016022,
+          "Friday": 0.05527075380086899,
+          "Saturday": 0.019101060926914215,
+          "Sunday": 0.012332571670413017
+        },
+        "control_probs": {
+          "Monday": 0.24960745871067047,
+          "Tuesday": 0.17155253887176514,
+          "Wednesday": 0.07612597942352295,
+          "Thursday": 0.07612597942352295,
+          "Friday": 0.043375272303819656,
+          "Saturday": 0.1336052566766739,
+          "Sunday": 0.24960745871067047
+        },
+        "steer_mag": 8.03280638371475
+      },
+      {
+        "prompt": "What day was it 2 days before Tuesday?",
+        "source_day": "Sunday",
+        "target_day": "Wednesday",
+        "base_probs": {
+          "Monday": 0.18631641566753387,
+          "Tuesday": 0.3071838319301605,
+          "Wednesday": 0.1983327865600586,
+          "Thursday": 0.05338054522871971,
+          "Friday": 0.05682329833507538,
+          "Saturday": 0.07766823470592499,
+          "Sunday": 0.12029491364955902
+        },
+        "steered_probs": {
+          "Monday": 0.21140797436237335,
+          "Tuesday": 0.041628699749708176,
+          "Wednesday": 0.044313520193099976,
+          "Thursday": 0.03045620396733284,
+          "Friday": 0.06863412261009216,
+          "Saturday": 0.25500667095184326,
+          "Sunday": 0.3485528230667114
+        },
+        "control_probs": {
+          "Monday": 0.17218345403671265,
+          "Tuesday": 0.32168102264404297,
+          "Wednesday": 0.1832883358001709,
+          "Thursday": 0.049331385642290115,
+          "Friday": 0.06742800772190094,
+          "Saturday": 0.06334275007247925,
+          "Sunday": 0.14274509251117706
+        },
+        "steer_mag": 7.716977918399471
+      },
+      {
+        "prompt": "If today is Tuesday, what day was it 2 days ago?",
+        "source_day": "Sunday",
+        "target_day": "Wednesday",
+        "base_probs": {
+          "Monday": 0.18300949037075043,
+          "Tuesday": 0.2834506630897522,
+          "Wednesday": 0.1948125958442688,
+          "Thursday": 0.07166754454374313,
+          "Friday": 0.0492563359439373,
+          "Saturday": 0.09202294796705246,
+          "Sunday": 0.12578046321868896
+        },
+        "steered_probs": {
+          "Monday": 0.18298280239105225,
+          "Tuesday": 0.07165709882974625,
+          "Wednesday": 0.092009536921978,
+          "Thursday": 0.07627858221530914,
+          "Friday": 0.092009536921978,
+          "Saturday": 0.25010785460472107,
+          "Sunday": 0.2349545806646347
+        },
+        "control_probs": {
+          "Monday": 0.1898302435874939,
+          "Tuesday": 0.2594671845436096,
+          "Wednesday": 0.2289789915084839,
+          "Thursday": 0.0698346495628357,
+          "Friday": 0.04508863762021065,
+          "Saturday": 0.08423665910959244,
+          "Sunday": 0.12256362289190292
+        },
+        "steer_mag": 5.416524679065644
+      },
+      {
+        "prompt": "Going back 2 days from Tuesday, which day do you land on?",
+        "source_day": "Sunday",
+        "target_day": "Wednesday",
+        "base_probs": {
+          "Monday": 0.16499745845794678,
+          "Tuesday": 0.3492996394634247,
+          "Wednesday": 0.12850014865398407,
+          "Thursday": 0.06069917231798172,
+          "Friday": 0.053566835820674896,
+          "Saturday": 0.07793928682804108,
+          "Sunday": 0.16499745845794678
+        },
+        "steered_probs": {
+          "Monday": 0.11465166509151459,
+          "Tuesday": 0.09504956752061844,
+          "Wednesday": 0.0892908126115799,
+          "Thursday": 0.12204606831073761,
+          "Friday": 0.18902865052223206,
+          "Saturday": 0.24271757900714874,
+          "Sunday": 0.14721566438674927
+        },
+        "control_probs": {
+          "Monday": 0.15970036387443542,
+          "Tuesday": 0.35989031195640564,
+          "Wednesday": 0.12437476217746735,
+          "Thursday": 0.05184711888432503,
+          "Friday": 0.04870585724711418,
+          "Saturday": 0.0854814425110817,
+          "Sunday": 0.17000015079975128
+        },
+        "steer_mag": 6.294960953453594
+      },
+      {
+        "prompt": "What day was it 3 days before Wednesday?",
+        "source_day": "Sunday",
+        "target_day": "Wednesday",
+        "base_probs": {
+          "Monday": 0.1435592919588089,
+          "Tuesday": 0.19622227549552917,
+          "Wednesday": 0.3235158324241638,
+          "Thursday": 0.07218614220619202,
+          "Friday": 0.06370405107736588,
+          "Saturday": 0.08179761469364166,
+          "Sunday": 0.11901482939720154
+        },
+        "steered_probs": {
+          "Monday": 0.1876254677772522,
+          "Tuesday": 0.05375559628009796,
+          "Wednesday": 0.13726972043514252,
+          "Thursday": 0.047439150512218475,
+          "Friday": 0.064841628074646,
+          "Saturday": 0.19972628355026245,
+          "Sunday": 0.3093421161174774
+        },
+        "control_probs": {
+          "Monday": 0.15660353004932404,
+          "Tuesday": 0.20108291506767273,
+          "Wednesday": 0.3114433288574219,
+          "Thursday": 0.06528206169605255,
+          "Friday": 0.0694923996925354,
+          "Saturday": 0.09498485177755356,
+          "Sunday": 0.10111083835363388
+        },
+        "steer_mag": 5.273029609163943
+      },
+      {
+        "prompt": "If today is Wednesday, what day was it 3 days ago?",
+        "source_day": "Sunday",
+        "target_day": "Wednesday",
+        "base_probs": {
+          "Monday": 0.1476818025112152,
+          "Tuesday": 0.2148757427930832,
+          "Wednesday": 0.27590590715408325,
+          "Thursday": 0.10804630070924759,
+          "Friday": 0.054329097270965576,
+          "Saturday": 0.08414655178785324,
+          "Sunday": 0.1150146946310997
+        },
+        "steered_probs": {
+          "Monday": 0.12704317271709442,
+          "Tuesday": 0.08202523738145828,
+          "Wednesday": 0.20945878326892853,
+          "Thursday": 0.1532433182001114,
+          "Friday": 0.11211521178483963,
+          "Saturday": 0.19676831364631653,
+          "Sunday": 0.119346022605896
+        },
+        "control_probs": {
+          "Monday": 0.14685139060020447,
+          "Tuesday": 0.2421170026063919,
+          "Wednesday": 0.2743545174598694,
+          "Thursday": 0.10743876546621323,
+          "Friday": 0.050750482827425,
+          "Saturday": 0.0836734026670456,
+          "Sunday": 0.09481437504291534
+        },
+        "steer_mag": 4.009460166074354
+      },
+      {
+        "prompt": "Going back 3 days from Wednesday, which day do you land on?",
+        "source_day": "Sunday",
+        "target_day": "Wednesday",
+        "base_probs": {
+          "Monday": 0.14712539315223694,
+          "Tuesday": 0.2425687611103058,
+          "Wednesday": 0.22787226736545563,
+          "Thursday": 0.0949912890791893,
+          "Friday": 0.06133098900318146,
+          "Saturday": 0.06949711591005325,
+          "Sunday": 0.15661416947841644
+        },
+        "steered_probs": {
+          "Monday": 0.12821315228939056,
+          "Tuesday": 0.060563601553440094,
+          "Wednesday": 0.13648219406604767,
+          "Thursday": 0.12044510990381241,
+          "Friday": 0.12821315228939056,
+          "Saturday": 0.18654903769493103,
+          "Sunday": 0.2395336925983429
+        },
+        "control_probs": {
+          "Monday": 0.15772482752799988,
+          "Tuesday": 0.21558426320552826,
+          "Wednesday": 0.24428898096084595,
+          "Thursday": 0.09566493332386017,
+          "Friday": 0.05450823903083801,
+          "Saturday": 0.07450393587350845,
+          "Sunday": 0.15772482752799988
+        },
+        "steer_mag": 5.552865237402211
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip3 show *)",
+      "Bash(pip show *)",
+      "Bash(gcloud projects list)",
+      "Bash(gcloud config list)",
+      "Bash(gcloud auth list)"
+    ]
+  }
+}

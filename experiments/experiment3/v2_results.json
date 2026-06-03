@@ -1,0 +1,37 @@
+{
+  "method": "ring_rotate_steer",
+  "steering_direction": "next_day",
+  "layers": [
+    8,
+    15,
+    20,
+    28
+  ],
+  "best_layer": 28,
+  "results_by_layer": {
+    "8": {
+      "steer_rate": 0.013513513513513514,
+      "n_steered": 1,
+      "n_stayed": 73,
+      "n_total": 74
+    },
+    "15": {
+      "steer_rate": 0.0,
+      "n_steered": 0,
+      "n_stayed": 74,
+      "n_total": 74
+    },
+    "20": {
+      "steer_rate": 0.02702702702702703,
+      "n_steered": 2,
+      "n_stayed": 72,
+      "n_total": 74
+    },
+    "28": {
+      "steer_rate": 0.4594594594594595,
+      "n_steered": 34,
+      "n_stayed": 33,
+      "n_total": 74
+    }
+  }
+}
